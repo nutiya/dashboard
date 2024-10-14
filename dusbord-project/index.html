@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="body gap1">
+        <div class="setting center box-shadow">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <!-- sidebar -->
+        <div id="sidebar" class="sidebar border-re dis-flex flex-co gap03">
+            <div class="header-side center gap05">
+                <img class="img-h" src="https://demos.creative-tim.com/material-dashboard/assets/img/logo-ct.png" alt="">
+                <p class="font14 font-w c-white">Material Dashboard 2</p>
+            </div>
+            <main class="dis-flex flex-co gap03">
+                <div class="botton">
+                    <img class="img" src="https://cdn-icons-png.flaticon.com/128/1828/1828673.png" alt="">
+                    <p class="font14 font-w c-white">Dashboard</p>
+                </div>
+                <div class="botton">
+                    <i class="fa-solid fa-table"></i>
+                    <p class="font14 font-w c-white">Tables</p>
+                </div>
+                <div class="botton">
+                    <i class="fa-solid fa-receipt"></i>
+                    <p class="font14 font-w c-white">Billing</p>
+                </div>
+                <div class="botton">
+                    <i class="fa-solid fa-vr-cardboard c-white font18"></i>
+                    <p class="font14 font-w c-white">Virtual Reality</p>
+                </div>
+                <div class="botton">
+                    <i class="fa-solid fa-ruble-sign"></i>
+                    <p class="font14 font-w c-white">RTL</p>
+                </div>
+                <div class="botton">
+                    <i class="fa-solid fa-bell"></i>
+                    <p class="font14 font-w c-white">Notifications</p>
+                </div>
+                <span class="c-gray font12 font-w"><p>ACCOUNT PAGES</p></span>
+                <div class="botton">
+                    <i class="fa-solid fa-user"></i>
+                    <p class="font14 font-w c-white">Profile</p>
+                </div>
+                <div class="botton">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <p class="font14 font-w c-white">Sign In</p>
+                </div>
+                <div class="botton">
+                    <i class="fa-regular fa-file-lines"></i>
+                    <p class="font14 font-w c-white">Sign Up</p>
+                </div>
+            </main>
+            <div class="footer-side dis-flex flex-co gap03">
+                <div class="botton center border-btn">
+                    <p>Notifications</p>
+                </div>
+                <div class="botton bg-pink center">
+                    <p class="font14 font-w c-white">UPGRADE TO PRO</p>
+                </div>
+            </div>
+        </div>
+        <!-- body-area -->
+        <main class="Body-area">
+            <heade class="header dis-flex">
+                <div class="pages dis-flex flex-co gap05 padding-left">
+                    <div class="gap05 dis-flex">
+                        <a href="#" class="c-gray"><p>Pages</p></a>
+                        <p>/</p>
+                        <p> Dashboard</p>
+                    </div>
+                    <div>
+                        <p>Dashboard</p>
+                    </div>
+                </div>
+                <div class="search dis-flex gap1 ali-cen">
+                    <input type="text" placeholder="Type here...">
+                    <a href="#">
+                        <button class="online border-btn">
+                            <p>ONLINE BUILDER</p>
+                        </button>
+                    </a>
+                    <div class="star dis-flex ali-cen">
+                        <div class="icon border-right">
+                            <a href="#" class="c-black dis-flex">
+                                <i class="fa-regular fa-star"></i>
+                                <p>Star</p>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="#">
+                                <p class="c-black">10,983</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu pointer" id="btn">
+                        <i class="fa-solid fa-bars c-black"></i>
+                    </div>
+                    <span class="sign">
+                        <a href="#">
+                            <p class="c-gray">Sign In</p>
+                        </a>
+                    </span>
+                </div>
+            </heade>
+
+
+
+            <div class="h-box dis-flex gap1 padding-top">
+                <div class="box ">
+                    <i class="fa-solid fa-folder-open"></i>
+                    <div class="value dis-flex flex-co float-r">
+                        <p class="c-gray">Today's Money</p>
+                        <p class="font-w font25">$53K</p>
+                    </div>
+                    <div class="under">
+                        <p><b class="i-bell">+55% </b>than last week</p>
+                    </div>
+                </div>
+                <div class="box ">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="value dis-flex flex-co float-r">
+                        <p class="c-gray">Today's Users</p>
+                        <p class="font-w font25">2,300</p>
+                    </div>
+                    <div class="under">
+                        <p><b class="i-bell">+3% </b>than last month</p>
+                    </div>
+                </div>
+                <div class="box ">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="value dis-flex flex-co float-r">
+                        <p class="c-gray">New Clients</p>
+                        <p class="font-w font25">3,462</p>
+                    </div>
+                    <div class="under">
+                        <p><b class="i-code">-2%</b> than yesterday</p>
+                    </div>
+                </div>
+                <div class="box ">
+                    <i class="fa-solid fa-folder-open"></i>
+                    <div class="value dis-flex flex-co float-r">
+                        <p class="c-gray">Sales</p>
+                        <p class="font-w font25">$103,430</p>
+                    </div>
+                    <div class="under">
+                        <p><b class="i-bell">+5%</b> than yesterday</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="chart-box dis-flex gap1 padding-top">
+                <div class="box dis-flex just-cen">
+                    <div class="card-header bg-pink"></div>
+                    <div class="on">
+                        <p class="font-w c-black font18">Website Views</p>
+                        <p>Last Campaign Performance</p>
+                    </div>
+                    <div class="under">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>campaign sent 2 days ago</p>
+                    </div>
+                </div>
+                <div class="box dis-flex just-cen">
+                    <div class="card-header bg-green"></div>
+                    <div class="on">
+                        <p class="font-w c-black font18">Daily Sales</p>
+                        <p>(<b class="c-gray">+15%</b>) increase in today sales.</p>
+                    </div>
+                    <div class="under">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>updated 4 min ago</p>
+                    </div>
+                </div>
+                <div class="box dis-flex just-cen">
+                    <div class="card-header bg-black"></div>
+                    <div class="on">
+                        <p class="font-w c-black font18">Completed Tasks</p>
+                        <p>Last Campaign Performance</p>
+                    </div>
+                    <div class="under">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>just updated</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="project dis-flex gap1">
+                <div class="box">
+                    <div class="project-head dis-flex flex-co gap05">
+                        <p class="font-w c-gb">Project</p>
+                        <p class="font14"><b class="c-gray ">30 done</b> this month</p>
+                    </div>
+                    <div class="row dis-flex gap1 font12 font-w c-gray">
+                        <div class="companies">
+                            <p>
+                                COMPANIES
+                            </p>
+                        </div>
+                        <div class="members center">
+                            <p>
+                                MEMBERS
+                            </p>
+                        </div>
+                        <div class="members center">
+                            <p>
+                                BUDGET
+                            </p>
+                        </div>
+                        <div class="members center">
+                            <p>
+                                COMPLETION
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row dis-flex gap1 font12 font-w c-gray border-top">
+                        <div class="companies dis-flex gap1 ali-cen c-gb font15">
+                            <img src="https://demos.creative-tim.com/material-dashboard/assets/img/small-logos/logo-xd.svg" alt="">
+                            <p>
+                                Material XD Version
+                            </p>
+                        </div>
+                        <div class="members center">
+                            <div class="con-profile dis-flex ali-cen">
+                                <div class="profile dis-flex">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                                <div class="profile dis-flex left1">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                                <div class="profile dis-flex left2">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                                <div class="profile dis-flex left3">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members center">
+                            <p>
+                                $14,000
+                            </p>
+                        </div>
+                        <div class="members dis-flex flex-co gap05">
+                            <p>
+                                60%
+                            </p>
+                            <div class="rang"></div>
+                        </div>
+                    </div>
+                    <div class="row dis-flex gap1 font12 font-w c-gray border-top">
+                        <div class="companies dis-flex gap1 ali-cen c-gb font15">
+                            <img src="https://demos.creative-tim.com/material-dashboard/assets/img/small-logos/logo-atlassian.svg" alt="">
+                            <p>                               
+                                Add Progress Track
+                            </p>
+                        </div>
+                        <div class="members center">
+                            <div class="con-profile dis-flex ali-cen">
+                                <div class="profile dis-flex">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                                <div class="profile dis-flex left1">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members center">
+                            <p>
+                                $3,000
+                            </p>
+                        </div>
+                        <div class="members dis-flex flex-co gap05">
+                            <p>
+                                10%
+                            </p>
+                            <div class="rang"></div>
+                        </div>
+                    </div>
+                    <div class="row dis-flex gap1 font12 font-w c-gray border-top">
+                        <div class="companies dis-flex gap1 ali-cen c-gb font15">
+                            <img src="https://demos.creative-tim.com/material-dashboard/assets/img/small-logos/logo-slack.svg" alt="">
+                            <p>
+                                Fix Platform Errors
+                            </p>
+                        </div>
+                        <div class="members center">
+                            <div class="con-profile dis-flex ali-cen">
+                                <div class="profile dis-flex">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                                <div class="profile dis-flex left1">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members center">
+                            <p>
+                                Not set
+                            </p>
+                        </div>
+                        <div class="members dis-flex flex-co gap05">
+                            <p>
+                                100%
+                            </p>
+                            <div class="rang"></div>
+                        </div>
+                    </div>
+                    <div class="row dis-flex gap1 font12 font-w c-gray border-top">
+                        <div class="companies dis-flex gap1 ali-cen c-gb font15">
+                            <img src="https://demos.creative-tim.com/material-dashboard/assets/img/small-logos/logo-spotify.svg" alt="">
+                            <p>
+                                Launch our Mobile App
+                            </p>
+                        </div>
+                        <div class="members center">
+                            <div class="con-profile dis-flex ali-cen">
+                                <div class="profile dis-flex">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                                <div class="profile dis-flex left1">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                                <div class="profile dis-flex left2">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                                <div class="profile dis-flex left3">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members center">
+                            <p>
+                                $20,500
+                            </p>
+                        </div>
+                        <div class="members dis-flex flex-co gap05">
+                            <p>
+                                100%
+                            </p>
+                            <div class="rang"></div>
+                        </div>
+                    </div>
+                    <div class="row dis-flex gap1 font12 font-w c-gray border-top">
+                        <div class="companies dis-flex gap1 ali-cen c-gb font15">
+                            <img src="https://demos.creative-tim.com/material-dashboard/assets/img/small-logos/logo-jira.svg" alt="">
+                            <p>
+                                Add the New Pricing Page
+                            </p>
+                        </div>
+                        <div class="members center">
+                            <div class="con-profile dis-flex ali-cen">
+                                <div class="profile dis-flex">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members center">
+                            <p>
+                                $500
+                            </p>
+                        </div>
+                        <div class="members dis-flex flex-co gap05">
+                            <p>
+                                25%
+                            </p>
+                            <div class="rang"></div>
+                        </div>
+                    </div>
+                    <div class="row dis-flex gap1 font12 font-w c-gray border-top">
+                        <div class="companies dis-flex gap1 ali-cen c-gb font15">
+                            <img src="https://demos.creative-tim.com/material-dashboard/assets/img/small-logos/logo-invision.svg" alt="">
+                            <p>
+                                Redesign New Online Shop
+                            </p>
+                        </div>
+                        <div class="members center">
+                            <div class="con-profile dis-flex ali-cen">
+                                <div class="profile dis-flex">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                                <div class="profile dis-flex left1">
+                                    <img src="https://demos.creative-tim.com/material-dashboard/assets/img/team-4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="members center">
+                            <p>
+                                $2,000
+                            </p>
+                        </div>
+                        <div class="members dis-flex flex-co gap05">
+                            <p>
+                                40%
+                            </p>
+                            <div class="rang"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="project-head dis-flex flex-co gap05">
+                        <p class="font-w c-gb">Orders overview</p>
+                        <p class="font14"><b class="c-gray ">24%</b> this month</p>
+                    </div>
+                    <div class="column dis-flex gap05">
+                        <div class="icon-co center flex-co">
+                            <i class="fa-solid fa-bell i-bell"></i>
+                            <div class="line"></div>
+                            <i class="fa-solid fa-code i-code"></i>
+                            <div class="line"></div>
+                            <i class="fa-solid fa-cart-shopping i-cart"></i>
+                            <div class="line"></div>
+                            <i class="fa-solid fa-credit-card i-card"></i>
+                            <div class="line"></div>
+                            <i class="fa-solid fa-key i-key"></i>
+                            <div class="line"></div>
+                            <i class="fa-solid fa-money-bills i-money"></i>
+                            <div class="line"></div>
+                        </div>
+                        <div class="text-co">
+                            <div class="text-box dis-flex flex-co gap05">
+                                <p class="c-gb font15 font-w">$2400, Design changes</p>
+                                <p class="font-w font12 c-gray">22 DEC 7:20 PM</p>
+                            </div>
+                            <div class="text-box dis-flex flex-co gap05">
+                                <p class="c-gb font15 font-w">New order #1832412</p>
+                                <p class="font-w font12 c-gray">21 DEC 11 PM</p>
+                            </div>
+                            <div class="text-box dis-flex flex-co gap05">
+                                <p class="c-gb font15 font-w">Server payments for April</p>
+                                <p class="font-w font12 c-gray">21 DEC 9:34 PM</p>
+                            </div>
+                            <div class="text-box dis-flex flex-co gap05">
+                                <p class="c-gb font15 font-w">New card added for order #4395133</p>
+                                <p class="font-w font12 c-gray">20 DEC 2:20 AM</p>
+                            </div>
+                            <div class="text-box dis-flex flex-co gap05">
+                                <p class="c-gb font15 font-w">Unlock packages for development</p>
+                                <p class="font-w font12 c-gray">18 DEC 4:54 AM</p>
+                            </div>
+                            <div class="text-box dis-flex flex-co gap05">
+                                <p class="c-gb font15 font-w">New order #9583120</p>
+                                <p class="font-w font12 c-gray">17 DEC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="footer dis-flex gap1">
+                <div class="box c-gray dis-flex ali-cen font-w font14">
+                    <p>
+                        © 2024, made with by <a href="#" class="c-black">Creative Tim</a> for a better web.
+                    </p>
+                </div>
+                <div class="box dis-flex ali-cen font14">
+                    <a href="#" class="c-gray"><p>Creative Tim</p></a>
+                    <a href="#" class="c-gray"><p>About Us</p></a>
+                    <a href="#" class="c-gray"><p>Blog</p></a>
+                    <a href="#" class="c-gray"><p>License</p></a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
+
+
